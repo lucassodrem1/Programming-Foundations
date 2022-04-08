@@ -44,10 +44,10 @@ The final result of **T(n)** is n³, because in very large input sizes, the lowe
 Example 1:
 
 ```
-T(n) = 17n<sup>4</sup> + 3n³ + 4n + 8
-T(n) = 17n<sup>4</sup>
-T(n) = n<sup>4</sup>
-O(n) = n<sup>4</sup>
+T(n) = 17n^4 + 3n³ + 4n + 8
+T(n) = 17n^4
+T(n) = n^4
+O(n) = n^4
 ```
 
 In the example 1, we first drop the lower order terms, then we drop the consntant, because in very large input sizes, constants will become insignificant too. Thus, the result is **_O(n<sup>4</sup>)_**.
