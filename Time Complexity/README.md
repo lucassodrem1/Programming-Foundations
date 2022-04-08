@@ -9,13 +9,13 @@ See the [example](./example1.js).
 In this example, we are trying to indentify if a number is prime or not.
 A prime number is a number that can be divided by **_exactly_** two numbers: 1 and the number itself.
 
-The first function has a time complexity of **_O(n)_**, while the first function has a time complexity of **_(O(√2)_**
+The first function has a time complexity of **_O(n)_**, while the second function has a time complexity of **_(O(√2)_**
 
 Let's assume that the variable **_number_** will be a large number: 10<sup>10</sup>+19.
 
 The first function will take close to 10<sup>7</sup> seconds, converting it to days, the result is: 115 days. So the first function will take 115 days to indentify if a number is prime or not in the worst case scenario.
 
-The second function will take 100 seconds, converting it to minutes, the result is: 1.66 minutes. So the second function will take 1.66 days to solve the problem in the worst case scenario.
+The second function will take 100 seconds, converting it to minutes, the result is close to: 1.66 minutes. So the second function will take close to 1.66 minutes to solve the problem in the worst case scenario.
 
 So, in this example, if our input size is small, the two functions don't have a significant difference, but as the input size increases, the difference running time complexity of the two functions becomes really substantial.
 
