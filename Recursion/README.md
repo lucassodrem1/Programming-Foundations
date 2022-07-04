@@ -4,13 +4,13 @@
 
 ## General Rules
 
-1. Recursive functions need to have a conditional statement, otherwise, the function will be an infinite loop.
+## Recursive functions need to have a conditional statement, otherwise, the function will be an infinite loop.
 
 See this [example](./Basic%20Examples/infinityLoop.c).
 
 This code will be running infinitely, because the **fun n** doesn't have a conditional statement to break it.
 
-2. Recursive functions have a calling time (ascending) and a returning time (descending).
+## Recursive functions have a calling time (ascending) and a returning time (descending).
 
 ### Ascending Recursive Function
 
@@ -48,4 +48,4 @@ Then, on the returning time, the operation will be done. Printing: 1, 2 and 3, i
 
 The output will be finished at the returning time, so this is a descending recursive function.
 
-3. The main difference between recursive function and loops, is that, while loops only do the ascending path (calling time), recursive functions do the ascending path and then, the descending path (returning time).
+## The main difference between recursive function and loops, is that, while loops only do the ascending path (calling time), recursive functions do the ascending path and then, the descending path (returning time).
